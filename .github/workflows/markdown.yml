@@ -9,7 +9,7 @@ jobs:
       - name: Checking out files from GitHub
         uses: actions/checkout@v1
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.4.1
         with:
           node-version: 12.x
       - name: Installing dependencies
